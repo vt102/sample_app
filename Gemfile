@@ -3,6 +3,8 @@ ruby '1.9.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
+gem 'bootstrap-sass', '~> 2.3.2'
+gem 'sprockets', '~> 2.11.0'
 
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.15.0'
