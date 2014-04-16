@@ -5,6 +5,7 @@ ruby '1.9.3'
 gem 'rails', '4.0.2'
 gem 'bootstrap-sass', '~> 2.3.2'
 gem 'sprockets', '~> 2.11.0'
+gem 'bcrypt-ruby', '~> 3.1.2'
 
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.15.0'
