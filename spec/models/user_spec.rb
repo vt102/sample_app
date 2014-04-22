@@ -98,6 +98,15 @@ describe User do
     it { should be_invalid }
   end
 
+  describe "e-mail converted to lower case" do
+    before { @user.email = "FOO@BAR.COM" }
+    
+    it "should be converted to lower case" do
+      @user.save
+      expect(@user.reload.email).to eq "foo@bar.com"
+    end
+  end
+
 #  pending "add some examples to (or delete) #{__FILE__}"
 
 end
